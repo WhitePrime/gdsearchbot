@@ -58,7 +58,7 @@ if os.path.exists('drive_folder'):
         lines = f.readlines()
         for line in lines:
             temp = line.strip().split()
-            DRIVE_NAME.append(temp[0].replace(" ", " "))
+            DRIVE_NAME.append(temp[0])
             DRIVE_ID.append(temp[1])
             try:
                 INDEX_URL.append(temp[2])
