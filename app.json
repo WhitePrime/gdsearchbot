@@ -8,9 +8,9 @@
       "drive",
       "python"
     ],
-    "repository": "https://github.com/mr-U-I1/TDSearchBot.git",
-    "website": "https://github.com/mr-U-I1/TDSearchBot/tree/master",
-    "success_url": "https://github.com/mr-U-I1/TDSearchBot/blob/master/README.md",
+    "repository": "https://github.com/Madhavreddy672/tdsearchbot",
+    "website": "https://github.com/Madhavreddy672/tdsearchbot",
+    "success_url": "https://github.com/Madhavreddy672/tdsearchbot",
     "stack": "container",
     "env": {
       "ENV": {
@@ -19,17 +19,17 @@
     },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "value": "",
+        "value": "1460608988:AAFEpffryqMenKZgCJYX6BMMiYFQH4J-4FM",
         "required": true
       },
       "OWNER_ID": {
         "description": "The Telegram user ID (not username) of the owner of the bot.",
-        "value": "",
+        "value": "1379694850",
         "required": true
       },
       "TELEGRAPH_TOKEN": {
         "description": "Open this link to generate telegraph token ==> https://telegraph-token.sonywegas.repl.run",
-        "value": "",
+        "value": "f68f9622b8f7cff4e778f7890ac5fe48fae7411a48c78a388fcbc2396276",
         "required": true
       }
 
