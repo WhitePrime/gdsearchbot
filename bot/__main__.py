@@ -9,7 +9,7 @@ from .modules import authorize, list
 def start(update, context):
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id,update.message.chat.username,update.message.text))
     if update.message.chat.type == "private" :
-        sendMessage(f"<b>Hi👋</b> <b>{update.message.chat.first_name}</b>. Welcome to <b>@MortalViking G-Drive/Team Drive Files Search Bot</b>", context.bot, update)
+        sendMessage(f"<b>Hi👋</b> <b>{update.message.chat.first_name}</b>. Welcome to <b>Team ThundersG-Drive/Team Drive Files Search Bot</b>", context.bot, update)
     else :
         sendMessage("I'm Alive🤭 :)", context.bot, update)
 
@@ -26,7 +26,7 @@ def main():
     dispatcher.add_handler(log_handler)
 
     updater.start_polling()
-    LOGGER.info("Yeah I'm running!")
+    LOGGER.info("Navko mama I'm alive!")
     updater.idle()
 
 main()
