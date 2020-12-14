@@ -113,7 +113,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>@MirrorrZ<br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>@TeamThunderProjects<br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
@@ -152,8 +152,8 @@ class GoogleDriveHelper:
         if self.num_of_path > 1:
             self.edit_telegraph()
 
-        msg = f" Search Results For {fileName} 👇 "
+        msg = f" Search Results For {fileName} By TeamThunders👇 "
         buttons = button_builder.ButtonMaker()   
-        buttons.buildbutton("CLICK HERE", f"https://telegra.ph/{self.path[0]}")
+        buttons.buildbutton("🍪CLICK HERE🍪", f"https://telegra.ph/{self.path[0]}")
 
         return msg, InlineKeyboardMarkup(buttons.build_menu(1))
